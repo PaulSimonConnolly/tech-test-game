@@ -9,8 +9,8 @@ Open two terminals, and in each run the following command to start the clients:
 CD into client/target and run "java -jar tech-challenge-client-1.0-SNAPSHOT.jar localhost"
 
 Note: Currently spent over 12 hours on the tech task and I'm unable to commit any further time to it.
-Criteria which should be working:
 
+Criteria which should be working:
 • The server application holds the state and business logic of the game, receiving the movements from the players and deciding whether a player has won, or the game is over - DONE
 • The state of the game, and who’s turn it is, will be returned to the client upon request - DONE
 • The communication between the clients and the server should be over HTTP. - Using sockets
